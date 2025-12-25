@@ -8,7 +8,7 @@ interface TypographyProps {
 export const TitleBanner = ({ children, className }: TypographyProps) => {
   return (
     <h1
-      className={`text-3xl md:text-5xl lg:text-[53px] font-serif leading-tight ${className}`}
+      className={`text-3xl md:text-5xl lg:text-[53px] font-serif leading-tight lg:tracking-[1] ${className}`}
     >
       {children}
     </h1>

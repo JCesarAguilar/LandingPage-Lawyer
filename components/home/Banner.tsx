@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { P1, TitleBanner } from "../common/Typography";
 import Waves from "./Waves";
+import Underline from "./Underline";
 
 export default function Hero() {
   return (
@@ -8,12 +9,14 @@ export default function Hero() {
       <Waves />
       <div className="absolute inset-0 z-0 pointer-events-none"></div>
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="flex flex-col gap-3 justify-center items-baseline">
+        <div className="flex flex-col gap-7 justify-center items-baseline">
           <TitleBanner className="text-3xl md:text-5xl lg:text-5xl font-serif leading-tight">
             Convirtiendo retos legales <br />
             <span className="relative inline-block">
               en resultados concretos.
-              <span className="absolute left-18 -bottom-2 h-0.75 w-130 bg-yellow-strong"></span>
+              <span className="absolute left-24 -bottom-6 w-full">
+                <Underline />
+              </span>
             </span>
           </TitleBanner>
 
@@ -23,7 +26,7 @@ export default function Hero() {
             justicia.
           </P1>
 
-          <button className="btn-primary mt-8 z-10">Agenda una consulta</button>
+          <button className="btn-primary mt-6 z-10">Agenda una consulta</button>
         </div>
 
         <div className="flex justify-center md:justify-end">

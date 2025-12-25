@@ -1,13 +1,13 @@
 import {
   FaGavel,
   FaBriefcase,
-  FaUsers,
   FaUserTie,
   FaLightbulb,
   FaHome,
   FaBalanceScale,
   FaLandmark,
 } from "react-icons/fa";
+import { MdFamilyRestroom } from "react-icons/md";
 
 export const services = [
   {
@@ -30,7 +30,7 @@ export const services = [
   },
   {
     title: "Derecho de Familia",
-    icon: FaUsers,
+    icon: MdFamilyRestroom,
     items: [
       "Divorcio y custodia de hijos.",
       "Acuerdos prenupciales.",
