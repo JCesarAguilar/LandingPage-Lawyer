@@ -32,7 +32,7 @@ export default function Banner() {
         <div className="justify-center md:justify-end hidden md:flex">
           <div className="relative w-70 h-95 md:w-95 md:h-130">
             <Image
-              src="/profile.jpeg"
+              src="/images/profile.jpeg"
               alt="Doctor Jesus Canales Abogador"
               fill
               className="object-cover rounded-sm"
