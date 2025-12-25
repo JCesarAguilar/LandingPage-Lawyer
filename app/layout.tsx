@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inria_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/common/navBar/Header";
+import Footer from "@/components/common/Footer";
 
 const inriaSerif = Inria_Serif({
   variable: "--font-inria-serif",
@@ -21,9 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inriaSerif.variable}  antialiased`}>
+      <body className={`${inriaSerif.variable}  antialiased `}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

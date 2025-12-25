@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function WhatWeOffer() {
   return (
-    <div className="lg:px-30 bg-white-smoke lg:py-10 flex gap-10">
-      <div className="md:w-1/2 relative w-70 h-95 md:h-90">
+    <div className="lg:px-30 bg-white-smoke lg:py-10 flex flex-col-reverse lg:flex-row lg:gap-10 gap-7 px-5 py-7">
+      <div className="aspect-2/1 w-full md:w-1/2 md:h-auto relative">
         <Image
           src="/images/weOffer.webp"
           alt="Que ofrecemos"
@@ -11,16 +11,16 @@ export default function WhatWeOffer() {
           className="object-cover rounded-sm"
         />
       </div>
-      <div className="md:w-1/2 text-black-strong flex flex-col gap-3 items-baseline">
-        <h3 className="text-yellow-strong font-bold text-[22px]">
+      <div className="md:w-1/2 text-black-strong flex flex-col gap-3 lg:items-baseline items-center">
+        <h3 className="text-yellow-strong font-bold lg:text-[22px] text-[20px]">
           Lo Que Ofrecemos
         </h3>
-        <p className="text-[30px] font-semibold">
+        <p className="lg:text-[30px] text-[17px] text-center lg:text-left font-semibold">
           Brindamos soluciones legales personalizadas para satisfacer sus
           necesidades únicas, garantizando que sus derechos estén protegidos y
           se haga justicia.
         </p>
-        <button className="btn-secondary mt-5 ">Ver más</button>
+        <button className="btn-secondary mt-5 hidden md:block">Ver más</button>
       </div>
     </div>
   );

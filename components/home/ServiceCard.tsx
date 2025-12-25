@@ -8,7 +8,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ icon, title, items }: ServiceCardProps) {
   return (
-    <div className="relative bg-white-strong text-black-strong shadow-md p-6 max-w-sm">
+    <div className="relative bg-white-strong text-black-strong shadow-md lg:p-6 max-w-sm px-9 py-6">
       <span className="absolute top-0 left-0 h-1 w-full bg-yellow-strong" />
 
       <div className="flex items-center gap-3 mb-4 hover:text-yellow-strong">

@@ -3,9 +3,9 @@ import { P1, TitleBanner } from "../common/Typography";
 import Waves from "./Waves";
 import Underline from "./Underline";
 
-export default function Hero() {
+export default function Banner() {
   return (
-    <section className=" bg-blue-strong text-white-smoke lg:px-30 lg:pt-10 lg:pb-20 ">
+    <section className=" bg-blue-strong text-white-smoke lg:px-30 lg:pt-10 lg:pb-20 px-5 pt-15 pb-10 ">
       <Waves />
       <div className="absolute inset-0 z-0 pointer-events-none"></div>
       <div className="grid grid-cols-1 md:grid-cols-2">
@@ -14,7 +14,7 @@ export default function Hero() {
             Convirtiendo retos legales <br />
             <span className="relative inline-block">
               en resultados concretos.
-              <span className="absolute left-24 -bottom-6 w-full">
+              <span className="absolute lg:left-24 lg:-bottom-6 lg:w-full w-70 left-14 -bottom-4">
                 <Underline />
               </span>
             </span>
@@ -29,7 +29,7 @@ export default function Hero() {
           <button className="btn-primary mt-6 z-10">Agenda una consulta</button>
         </div>
 
-        <div className="flex justify-center md:justify-end">
+        <div className="justify-center md:justify-end hidden md:flex">
           <div className="relative w-70 h-95 md:w-95 md:h-130">
             <Image
               src="/profile.jpeg"
