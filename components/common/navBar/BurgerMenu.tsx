@@ -13,9 +13,9 @@ export function BurgerMenu() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <div className="lg:hidden relative flex">
+    <div className="lg:hidden relative flex z-20">
       <button onClick={toggleMenu}>
-        <GiHamburgerMenu className="text-white text-2xl" />
+        <GiHamburgerMenu className="text-white-smoke text-2xl" />
       </button>
 
       {/* Menú deslizante */}

@@ -1,85 +1,53 @@
-import {
-  FaGavel,
-  FaBriefcase,
-  FaUserTie,
-  FaLightbulb,
-  FaHome,
-  FaBalanceScale,
-  FaLandmark,
-} from "react-icons/fa";
-import { MdFamilyRestroom } from "react-icons/md";
+import { FaGavel, FaBriefcase, FaUserTie } from "react-icons/fa";
+import { GiMining } from "react-icons/gi";
 
 export const services = [
   {
-    title: "Litigación y Resolución de Conflictos",
+    slug: "litigacion",
+    title: "Litigación y Solución de Controversias",
     icon: FaGavel,
     items: [
-      "Representación legal en tribunales.",
-      "Litigación civil, penal y comercial.",
-      "Servicios de mediación y arbitraje.",
+      "Crimen organizado.",
+      "Lavado de activos.",
+      "Extinsión de dominio.",
+      "Procesos constitucionales.",
+      "Litigios civiles.",
     ],
+    description: `Ofrecemos representación legal especializada en la resolución de conflictos complejos, incluyendo crimen organizado, lavado de activos, extinción de dominio y procesos constitucionales. Actuamos con rigor técnico y estrategia jurídica para proteger los derechos e intereses de nuestros clientes, asumiendo también litigios civiles cuando el caso lo requiere.`,
   },
   {
-    title: "Derecho Corporativo y Empresarial",
+    slug: "cumplimiento-normativo",
+    title: "Cumplimiento Normativo",
     icon: FaBriefcase,
     items: [
-      "Redacción y revisión de contratos.",
-      "Cumplimiento corporativo y gobierno empresarial.",
-      "Fusiones, adquisiciones y reestructuración empresarial.",
+      "Prevención de lavado de activos",
+      "Cumplimiento de normativas nacionales e internacionales.",
+      "Asesoría en responsabilidad administrativa y penal empresarial.",
     ],
+    description: `Brindamos asesoría especializada en cumplimiento normativo, ayudando a empresas y organizaciones a prevenir riesgos legales, administrativos y penales. Diseñamos e implementamos políticas de prevención de lavado de activos, asegurando el cumplimiento de normativas nacionales e internacionales. Nuestro enfoque integral protege la continuidad del negocio y fortalece la transparencia, la ética y la responsabilidad corporativa.`,
   },
   {
-    title: "Derecho de Familia",
-    icon: MdFamilyRestroom,
+    slug: "mineria-exportacion",
+    title: "Mineria y exportación",
+    icon: GiMining,
     items: [
-      "Divorcio y custodia de hijos.",
-      "Acuerdos prenupciales.",
-      "Planificación patrimonial y herencias.",
+      "Asesoría legal en proyectos mineros.",
+      "Permisos, licencias y cumplimiento regulatorio.",
+      "Contratos de exportación y comercio internacional.",
+      "Cumplimiento ambiental y normativo del sector.",
     ],
+    description: `Ofrecemos asesoría legal especializada en proyectos mineros y operaciones de exportación, acompañando a nuestros clientes en la obtención de permisos, licencias y el cumplimiento del marco regulatorio vigente. Brindamos soporte integral en contratos de comercio internacional, garantizando seguridad jurídica, cumplimiento ambiental y normativo, y una gestión eficiente de los riesgos propios del sector.`,
   },
   {
-    title: "Derecho Laboral y del Empleo",
+    slug: "asesoria-legal",
+    title: "Asesoría Legal",
     icon: FaUserTie,
     items: [
-      "Conflictos laborales y despidos.",
-      "Contratos laborales y políticas internas.",
-      "Negociaciones sindicales.",
+      "Compra de bienes inmuebles rematados - REMAJU",
+      "Pensión de alimentos y filiación extramatrimonial",
+      "Exportación y trazabilidad minera.",
+      "División y participación de inmueble",
     ],
-  },
-  {
-    title: "Propiedad Intelectual",
-    icon: FaLightbulb,
-    items: [
-      "Registro de marcas y derechos de autor.",
-      "Casos de infracción de propiedad intelectual.",
-      "Licencias y acuerdos de patentes.",
-    ],
-  },
-  {
-    title: "Derecho Inmobiliario y de Bienes Raíces",
-    icon: FaHome,
-    items: [
-      "Transacciones inmobiliarias y contratos.",
-      "Disputas de tierras y zonificación.",
-      "Contratos de arrendamiento y derechos del inquilino.",
-    ],
-  },
-  {
-    title: "Derechos Humanos y Defensa Legal",
-    icon: FaBalanceScale,
-    items: [
-      "Asistencia legal a comunidades vulnerables.",
-      "Protección de derechos fundamentales.",
-      "Litigación de interés público.",
-    ],
-  },
-  {
-    title: "Derecho Tributario y Financiero",
-    icon: FaLandmark,
-    items: [
-      "Cumplimiento tributario y controversias fiscales.",
-      "Regulaciones financieras y auditorías.",
-      "Planificación fiscal para personas y empresas.",
-    ],
+    description: `Brindamos asesoramiento jurídico integral en asuntos patrimoniales, familiares y administrativos, acompañando a nuestros clientes en la compra de bienes inmuebles rematados (REMAJU), procesos de pensión de alimentos y filiación extramatrimonial, así como en la división y participación de inmuebles. Además, ofrecemos soporte legal en exportación y trazabilidad minera, garantizando seguridad jurídica y cumplimiento normativo.`,
   },
 ];
