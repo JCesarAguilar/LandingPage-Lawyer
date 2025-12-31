@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-black-strong: #000000;
+  --color-black-medium: #101010;
+  --color-black-soft: #191919;
+  --color-gray-strong: #4f4f4f;
+  --color-gray-medium: #9f9f9f;
+  --color-gray-soft: #f1f1f1;
+  --color-gray-special: #e5e5e5;
+  --color-white-strong: #ffffff;
+  --color-white-smoke: #fafafa;
+  --color-yellow-strong: #fca311;
+  --color-yellow-special: #f9dd27;
+  --color-blue-strong: #14213d;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-serif: var(--font-inria-serif);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inria-serif), serif;
+}
+
+.nav-items {
+  @apply hover:text-yellow-strong cursor-pointer text-white text-[18px];
+}
+
+.btn-primary {
+  @apply bg-yellow-strong text-black-strong lg:text-[18px] text-[16px] font-bold px-7 lg:py-4 py-2 cursor-pointer;
+}
+
+.btn-secondary {
+  @apply bg-yellow-strong text-black-strong lg:text-[18px] text-[16px] font-bold px-5 py-2 cursor-pointer;
+}
+
+.btn-media {
+  @apply bg-yellow-strong rounded-full h-8 w-8 text-black-medium place-items-center place-content-center text-[19px] cursor-pointer;
+}
