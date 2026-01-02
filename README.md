@@ -43,9 +43,9 @@ Landing page moderna, informativa y responsiva para el estudio **Canales Hernán
 
 ## 🖼️ Capturas del sitio
 
-| Página de inicio                | Servicios filtrables                   | Perfil de abogado completo         |
-| ------------------------------- | -------------------------------------- | ---------------------------------- |
-| ![Inicio](screenshots/home.png) | ![Servicios](screenshots/services.png) | ![Abogado](screenshots/lawyer.png) |
+| Página de inicio                           | Servicios filtrables                              | Perfil de abogado completo                    |
+| ------------------------------------------ | ------------------------------------------------- | --------------------------------------------- |
+| ![Inicio](frontend/public/assets/home.png) | ![Servicios](frontend/public/assets/services.png) | ![Abogado](frontend/public/assets/lawyer.png) |
 
 ---
 
